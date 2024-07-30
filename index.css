@@ -16,7 +16,7 @@ body {
     height: 100vh; /* vh is veigh height */
     width: 100%;
     background-size: cover; /* supposably makes bg take whole screen despite size */
-    background-position: center center; /* centers image in x and y so a small screen has the midmost section of bg instead of random side */
+    background-position: left center; /* centers image in x and y so a small screen has the midmost section of bg instead of random side */
     position: fixed; /* stay put so that text can go on top of image! */
     top: 0; /* start at top of page */
     z-index: -1; /* makes a layer kind of effect so it's behind everything else on the page */ 
