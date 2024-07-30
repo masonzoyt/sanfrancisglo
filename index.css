@@ -6,11 +6,11 @@ body {
     justify-content: center; 
     align-items: center; 
     height: 100vh;
-    
+    flex-direction: column;    
 }
 
 .background { /* calls just to the background div but we (the computer) still dk what that is */
-    background-image: url(trees-sfglo.png);
+    background-image: url(trees-sfglo.png) !important;
     height: 100vh; /* vh is veigh height */
     width: 100%;
     background-size: cover; /* supposably makes bg take whole screen despite size */
@@ -19,13 +19,28 @@ body {
     top: 0; /* start at top of page */
     z-index: -1; /* makes a layer kind of effect so it's behind everything else on the page */ 
 }
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    /* max-width: 600px; */
+    /* background: white; */
+    /* padding: 20px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 10px; */
+}
+
+
 /* Header styles */
-header {
+ header {
     background: #333;
     color: #fff;
     padding: 10%;
     text-align: center;
-}
+} 
 
 .btn-primary {
     background-color: #007bff; /* Blue background color */
