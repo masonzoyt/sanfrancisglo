@@ -6,3 +6,4 @@ button.addEventListener('click', function() {
     // Open a new page
     window.location.href = '1.html'; // Replace with the desired URL
 });
+
