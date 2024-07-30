@@ -2,10 +2,14 @@ body {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     line-height: 2;
     margin: 0%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
     
 }
 
-#background { /* calls just to the background div but we (the computer) still dk what that is */
+.background { /* calls just to the background div but we (the computer) still dk what that is */
     background-image: url(trees-sfglo.png);
     height: 100vh; /* vh is veigh height */
     width: 100%;
