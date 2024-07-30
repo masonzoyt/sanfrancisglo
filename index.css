@@ -1,11 +1,17 @@
 body {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     line-height: 2;
-    margin: 20%;
-    background-color: #f4f4f4;
-    color: #5a0b0b;
+    margin: 0%;
+    
 }
 
+#background { /* calls just to the background div but we (the computer) still dk what that is */
+    background-image: url(trees-sfglo.png);
+    height: 100vh; /* vh is veigh height */
+    width: 100%;
+    background-size: cover; /* supposably makes bg take whole screen despite size */
+    background-position: center center; /* centers image in x and y so a small screen has the midmost section of bg instead of random side */
+}
 /* Header styles */
 header {
     background: #333;
