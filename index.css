@@ -1,12 +1,12 @@
 body {
     font-family: 'Georgia', 'serif';
     color: rgb(0, 169, 0);
-    line-height: 2;
+    line-height: 1;
     margin: 0%;
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 100vh;
+    height: 100vh; /* does not refer to size of text */
     flex-direction: column;    
 }
 
@@ -29,6 +29,7 @@ body {
     justify-content: center;
     width: 80%;
     margin-bottom: 20%;
+    font-size: medium;
     /* max-width: 600px; */
     /* background: white; */
     /* padding: 20px; */
@@ -37,7 +38,14 @@ body {
 }
 
 .p1{
-    font-size: 2vh;
+    font-size: large;
+    margin-bottom: 1%;
+}
+
+.h1{ 
+    margin-bottom: 0.6vh;
+    font-size: 3vh;
+    font-weight: bold;
 }
 
 .btn-primary {
